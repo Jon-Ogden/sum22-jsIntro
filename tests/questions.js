@@ -109,10 +109,12 @@ and y is last character (character on position of y is not included)*/
 
 
 // split()
-//splits the string and returns an array of the split string
+//splits the string and returns an array of the split string. first argument is the character is split on.
 
 
 // replace()
+// has two arguments and returns a string in which the first argument
+// has been replaced by the second argument
 
 
 
@@ -134,6 +136,29 @@ CONDTIONALS
 
 
 //4. what is a switch statement
+// a statement that performs different actions based on different conditions. 
+switch(new Date().getDay()) {
+    case 0: 
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+     case 6:
+        day = "Saturday";
+}
 
 
 //5. how is a switch statement different from if/elseif statement
