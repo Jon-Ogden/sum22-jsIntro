@@ -57,7 +57,7 @@ Math.random()
 
 // 2. What is isNaN?
 // is Not a Number
-6.isNaN == false
+isNaN(6) == false
 'six'.isNaN == true
 
 
